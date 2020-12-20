@@ -57,7 +57,6 @@ app.post("/register", function (req, res) {
               res.render("secrets");
           }
      });
-
 });
 
 app.post("/login", function(req, res){
@@ -84,6 +83,5 @@ app.post("/login", function(req, res){
 });
 
 app.listen(3000, function (req, res) {
-
-    console.log("Server started on port: 3000");
+     console.log("Server started on port: 3000");
 });
